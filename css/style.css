@@ -1,0 +1,69 @@
+
+body{
+    background-color:beige;
+    font-family:"palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.clr{
+    clear:both;
+}
+
+.container{
+    /*width:80%;*/
+    margin:auto;
+}
+
+#main-header{
+    background-color:bisque;
+    width:100%;
+    position:center;
+}
+
+#main-header h1{
+    text-align: center;
+    padding: 20px;
+    padding-top:0;
+}
+
+.header-band{
+    width:100%;
+    min-height:500px;
+    position:relative;
+    background-image:url("../images/beach1.jpg");
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:center center;
+}
+
+.section{
+    line-height:1.6em;
+    padding:20px;
+    border: 1px dashed black;
+    border-radius:10px;
+    margin:20px;
+}
+
+.section img{
+    border-radius:10px;
+    border-image-slice:300px 100px;
+}
+
+.section h3{
+    text-align:center;
+}
+
+.about-me{
+    /*float:center;*/
+    width:30%;
+    align-self:center;
+}
+
+.dog-photos{
+    float:right;
+    width:30%;
+}
+
+.diving_photos{
+    float:left;
+    width:30%;
+}
